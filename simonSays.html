@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous&effect=emboss|outline" rel="stylesheet">
+    <link rel="stylesheet" href="simonSays.css">
+    <audio id="clip1">
+        <source src="https://www.soundjay.com/button/sounds/beep-06.mp3"></source>
+    </audio>
+
+    <audio id="clip2">
+        <source src="https://www.soundjay.com/button/sounds/beep-07.mp3"></source>
+    </audio>
+
+    <audio id="clip3">
+        <source src="https://www.soundjay.com/button/sounds/beep-08b.mp3"></source>
+
+    </audio>
+
+    <audio id="clip4">        
+        <source src="https://www.soundjay.com/button/sounds/beep-09.mp3"></source>
+
+    </audio>
+
+</head>
+<body>
+    <div id="outer-circle">
+        <div id="red"></div>
+        <div id="blue"></div>
+        <div id="yellow"></div>
+        <div id="green"></div>
+        <div id="inner-circle">
+            <div id="title" class="font-effect-emboss">SIMON!</div>
+            <div id="switches">
+                <input type="checkbox" class="toggle" id="on">
+                <button class="button" id="start">Start</button>
+                <input type="checkbox" class="toggle" id="strict">
+            </div>
+            <div class="text1">
+                <span>POWER</span>
+                <span>STRICT</span>
+            </div>
+            <div id="turn"></div>
+            <div class="text2">COUNT</div>
+        </div>
+    </div>
+    <script src="./simonSays.js"></script>
+</body>
+</html>

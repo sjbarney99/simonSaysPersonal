@@ -1,0 +1,172 @@
+body{
+    background-image: url(https://www.patternpictures.com/wp-content/uploads/2018/01/white-texture-background-geometric-pattern-180126-360x360.jpg); 
+}
+
+#title{
+    font-size: 38px;
+    position: absolute;
+    margin-left: 51px;
+    margin-top: 39px;
+    color: #4d4d4d;
+}
+
+.font-effect-emboss {
+    text-shadow: 0px 1px 1px #afafaf, 0 -1px 1px #000;
+    color: #a2a2a2;
+}
+
+.toggle{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button{
+    border-radius: 50% !important;
+    font-size: 1.5em;
+    background-image: url(https://photos.gograph.com/thumbs/CSP/CSP993/abstract-pearl-background-vector-art_k14614057.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#switches {
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 110px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text2 {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 155px;
+    font-family: -webkit-body;
+    font-size: 13.5px;
+    color: #737373;
+}
+.text1 {
+    position: absolute;
+    margin-left: 32px;
+    margin-top: 142px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #808080;
+}
+
+.text1 span:last-child {
+    padding-left: 75px; 
+}
+
+#turn {
+    position: absolute;
+    background: #330000;
+    color: red;
+    font-family: courier;
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    margin-left: 88px;
+    margin-top: 170px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+#outer-circle {
+    background: #385a94;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    border-width: 10px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 8px 8px 15px 5px #888888;
+  }
+
+
+  #red {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 250px 0 0;
+    -moz-border-radius: 0 250px 0 0;
+    -webkit-border-radius: 0 250px 0 0;
+    background: radial-gradient(circle, rgba(249,5,13,0.9612219887955182) 13%, rgba(209,6,6,0.9051995798319328) 75%);
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px 0px;
+    border-style: outset;
+    border-width: 1px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  #yellow {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 0 250px;
+    -moz-border-radius: 0 0 0 250px;
+    -webkit-border-radius: 0 0 0 250px;
+    background: radial-gradient(circle, rgba(254,249,97,1) 0%, rgba(255,235,0,0.9752275910364145) 99%);
+    top: 50%;
+    left: 50%;
+    margin: 0px -250px 0px -250px;
+    border-style: outset;
+    border-width: 1px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  #blue {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 250px 0;
+    -moz-border-radius: 0 0 250px 0;
+    -webkit-border-radius: 0 0 250px 0;
+    background: radial-gradient(circle, rgba(129,255,252,1) 0%, rgba(23,206,249,0.9752275910364145) 99%);
+    top: 50%;
+    left: 50%;
+    margin: 0px 0px -250px 0px;
+    border-style: outset;
+    border-width: 1px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  #green {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px 0 0 0;
+    -moz-border-radius: 250px 0 0 0;
+    -webkit-border-radius: 250px 0 0 0;
+    background: radial-gradient(circle, rgba(92,251,76,1) 0%, rgba(5,156,5,0.9752275910364145) 99%);
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px -250px;
+    border-style: outset;
+    border-width: 1px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  #inner-circle {
+    position: absolute;
+    background: url(https://image.freepik.com/free-vector/black-metal-texture-background_46250-319.jpg);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border-style: double;
+    border-width: 10px;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0px 0px -125px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
